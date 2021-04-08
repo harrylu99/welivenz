@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Carrousel from './Carrousel'
+import timeCount from './TimeCount'
 
 export default class Featured extends Component {
     render() {
@@ -12,7 +13,7 @@ export default class Featured extends Component {
                     <div className='wrapper'>
                         Reputation tour
                     </div>
-                    
+                <timeCount/>
                 </div>                
             </div>
         )
