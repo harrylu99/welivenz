@@ -10,16 +10,15 @@ body {
 }
 
 .bck_black {
-    background: #3c3c3c;
+    background: black;
 }
 .bck_white {
     background: #ffffff;
 }
-.bck_red {
-    background: #ff4800;
-}
-.bck_yellow {
-    background: #ffa800;
+
+
+.bck_gery {
+    background: #2c2c2c;
 }
 
 .iconImage {
@@ -55,8 +54,9 @@ header .header_logo_title {
 }
 
 
+
 /*====================
-        FOOTER
+        FOOTER + Location
 ======================*/
 
 footer {
@@ -64,11 +64,19 @@ footer {
     text-align: center;
     font-size: 60px;
     color:#ffffff;
-    background: red;
+    background-color: black;
 }
 
 footer .footer_copyright {
     font-size: 18px;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+     filter: grayscale(100%);
 }
 
 /*====================
@@ -115,10 +123,11 @@ footer .footer_copyright {
     position:absolute;
     bottom: 0px;
     color:#ffffff;
+
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: transparent;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -127,15 +136,15 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: transparent;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
-    font-size: 70px;
-    border-right: 1px solid #F44336;
+    font-size: 30px;
+    border-right: 1px solid white;
     margin-right: 14px;
-    padding-right: 49px;
+    padding-right: 20px;
 }
 .countdown_wrapper .countdown_item:last-child .countdown_time{
     border:none;
@@ -158,7 +167,7 @@ footer .footer_copyright {
 
 .vn_item {
     width:50%;
-    color:#ffffff;
+    color:white;
     text-align: center;
 }
                       
@@ -211,7 +220,7 @@ footer .footer_copyright {
 .vn_item .vn_desc {
     font-size: 30px;
     font-weight: 300;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 /*====================
@@ -245,7 +254,7 @@ footer .footer_copyright {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
+    color: black;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -274,15 +283,15 @@ footer .footer_copyright {
 }
 
 /*====================
-        PRICING
+        guest
 ======================*/
 
-.pricing_section {
+.guest_section {
     padding: 70px 0px;
 }
 
 
-.pricing_section h2 {
+.guest_section h2 {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
@@ -290,38 +299,38 @@ footer .footer_copyright {
     margin: 0;
 }
 
-.pricing_wrapper {
+.guest_wrapper {
     display: flex;
     flex-wrap: wrap;
 }
-.pricing_wrapper .pricing_item{
+.guest_wrapper .guest_item{
     flex-grow: 1;
     width: 33%;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.pricing_wrapper .pricing_inner_wrapper {
-    border:2px solid #ffa800;
+.guest_wrapper .guest_inner_wrapper {
+    border:2px solid #7d7668;
     padding: 50px 20px;
 }
 
-.pricing_inner_wrapper .pricing_title {
+.guest_inner_wrapper .guest_title {
     color: #ffffff;
     text-align: center;
-    border-bottom: 1px solid #ffa800;
+    border-bottom: 1px solid #7d7668;
     padding-bottom: 20px;
 }
-.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+.guest_inner_wrapper .guest_title span:nth-child(1) {
     font-size: 50px;
     display: block;
 }
-.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+.guest_inner_wrapper .guest_title span:nth-child(2) {
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 300;
 }
-.pricing_inner_wrapper .pricing_description {
+.guest_inner_wrapper .guest_description {
     color: #b8b8b8;
     font-weight: 300;
     font-size: 14px;
@@ -330,9 +339,35 @@ footer .footer_copyright {
     min-height: 70px;
 }
 
-.pricing_inner_wrapper .pricing_buttons {
+.guest_inner_wrapper .guest_buttons {
      text-align: center;
 }
+
+
+/*====================
+        recording
+======================*/
+
+.recording_section {
+    padding: 70px 0px;
+}
+
+
+.recording_section h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.recording_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+
 
 
 /*====================
