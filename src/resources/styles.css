@@ -40,6 +40,7 @@ body {
 header {
     padding:10px 0px;
     transition: all 300ms ease-in;
+    width: 100%;
 }
 
 header .header_logo {
@@ -87,6 +88,7 @@ footer .footer_copyright {
 .carrousel_wrapper {
     height:700px;
     overflow: hidden;
+    width: 100%
 }
 
 .carrousel_image {
@@ -123,6 +125,7 @@ footer .footer_copyright {
     position:absolute;
     bottom: 0px;
     color:#ffffff;
+    width: 100%;
 
 }
 
@@ -163,6 +166,7 @@ footer .footer_copyright {
 .vn_wrapper {
     display: flex;
     padding: 170px 0px;
+    width: 100%;
 }
 
 .vn_item {
@@ -233,6 +237,7 @@ footer .footer_copyright {
     text-transform: uppercase;
     color:#2c2c2c;
     font-size: 52px;
+    width: 100%;
 }
 
 .highlight_wrapper .highlight_description {
@@ -242,11 +247,13 @@ footer .footer_copyright {
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     padding: 30px 0px;
+    width: 100%;
 }
 
 .discount_wrapper {
     display: flex;
     padding: 70px 0px;
+    width: 100%;
 }
 
 .discount_wrapper .discount_porcentage {
@@ -257,8 +264,8 @@ footer .footer_copyright {
     color: black;
     font-size: 125px;
     font-weight: 400;
-    display: block;
     line-height: 120px;
+    display: block;
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(2) {
@@ -288,6 +295,7 @@ footer .footer_copyright {
 
 .guest_section {
     padding: 70px 0px;
+    width: 100%;
 }
 
 
@@ -350,6 +358,7 @@ footer .footer_copyright {
 
 .recording_section {
     padding: 70px 0px;
+    width: 100%;
 }
 
 
@@ -376,6 +385,7 @@ footer .footer_copyright {
 
 .location_wrapper {
     position:relative;
+    width: 100%;
 }
 
 .location_tag {
