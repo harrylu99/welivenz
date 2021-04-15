@@ -21,7 +21,7 @@ export default class Discount extends Component {
                         <div className="discount_description">
                             <h3>35,749 out of 35,749 attended</h3>
                             <p>Her performance was polished with precision. Her speedy segues were rehearsed and seemingly timed, keeping the audience banter flowing into the next track. Even her steps on stage, or slightest head tilt, seemed remarkably exact. A dozen cameras tracked her every move for the giant stage screen, and not once was she ever caught not looking her best.</p>
-                            <p>    ---------Stuff</p>
+                            <p align="right"> ----------- Stuff</p>
                         
                         
                         </div>

@@ -1,3 +1,18 @@
+@media (max-width: 768px){
+    .change{
+        height: 100%;
+         float: right;
+         margin: 15px;
+     }
+}
+@media (min-width: 768px){
+    .change{
+     display: none;
+     }
+}
+
+@media only screen and (max-device-width :480px){ } 
+@media only screen and (min-device-width :481px){ } 
 
 body {
     padding:0;
@@ -341,7 +356,7 @@ footer .footer_copyright {
 .guest_inner_wrapper .guest_description {
     color: #b8b8b8;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     padding: 20px 0px;
     min-height: 70px;
@@ -371,6 +386,7 @@ footer .footer_copyright {
 }
 
 .recording_wrapper {
+    text-align:center;
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0;
